@@ -1,0 +1,274 @@
+{
+  "name": "Klostercafé St. Hildegard",
+  "address": "Abtei St. Hildegard 1, 65385 Rüdesheim am Rhein, Germany",
+  "source_url": "https://klostercafe.abtei-st-hildegard.de/cafe-und-buffet/",
+  "vanity_url": "https://www.klostercafe-st-hildegard.de/",
+  "speisekarte_pdf": "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/Speisekarte_2026.pdf",
+  "speisekarte_images": [
+    "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/2026_Speisekarte_.jpg",
+    "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/2026_Speisekarte_2.jpg",
+    "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/2026_Speisekarte_3.jpg",
+    "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/2026_Speisekarte_4.jpg",
+    "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/2026_Speisekarte_5.jpg"
+  ],
+  "fetched_at": "2026-11-01T11:16:44.499Z",
+  "currency": "EUR",
+  "service": "self-service",
+  "facts": [
+    "Bakery uses exclusively Dinkel (spelt) for cakes and bread.",
+    "Operated as an inclusion business (gGmbH) since 1 April 2020; team includes staff from Rheingau Werkstätten Rüdesheim.",
+    "Picnic baskets available to pre-order, incl. blanket.",
+    "All wines from the abbey’s own Weingut.",
+    "Kitchen built around Hildegard’s herbs and spices; many ingredients grown on site."
+  ],
+  "notes": [
+    "A-la-carte prices are published only inside Speisekarte_2026.pdf, which uses subsetted fonts with no ToUnicode CMap. Text extraction yields section headings but not item names or prices. Per project rules these are NOT OCR-guessed: they carry price:null / verified:false. See https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/Speisekarte_2026.pdf",
+    "Hours differ from the Rheinsteig listing supplied in the brief (which gave Sun 13:00-17:00 and Tue-Sat 09:30-17:30). The OFFICIAL site states Mon closed, Tue-Sun 09:30-17:30. Official site wins; brief value discarded."
+  ],
+  "hours": [
+    {
+      "day": "Mon",
+      "open": null,
+      "close": null,
+      "closed": true,
+      "verified": true,
+      "source": "official site (Leichte Sprache)"
+    },
+    {
+      "day": "Tue",
+      "open": "09:30",
+      "close": "17:30",
+      "closed": false,
+      "verified": true,
+      "source": "official site (Leichte Sprache)"
+    },
+    {
+      "day": "Wed",
+      "open": "09:30",
+      "close": "17:30",
+      "closed": false,
+      "verified": true,
+      "source": "official site (Leichte Sprache)"
+    },
+    {
+      "day": "Thu",
+      "open": "09:30",
+      "close": "17:30",
+      "closed": false,
+      "verified": true,
+      "source": "official site (Leichte Sprache)"
+    },
+    {
+      "day": "Fri",
+      "open": "09:30",
+      "close": "17:30",
+      "closed": false,
+      "verified": true,
+      "source": "official site (Leichte Sprache)"
+    },
+    {
+      "day": "Sat",
+      "open": "09:30",
+      "close": "17:30",
+      "closed": false,
+      "verified": true,
+      "source": "official site (Leichte Sprache)"
+    },
+    {
+      "day": "Sun",
+      "open": "09:30",
+      "close": "17:30",
+      "closed": false,
+      "verified": true,
+      "source": "official site (Leichte Sprache)"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Buffets & Spezialitäten",
+      "source": "https://klostercafe.abtei-st-hildegard.de/cafe-und-buffet/",
+      "items": [
+        {
+          "name": "Sonntagsbuffet",
+          "desc": "Sonntags · 10:00-12:30",
+          "price": 26.5,
+          "verified": true
+        },
+        {
+          "name": "Adventsbuffet",
+          "desc": "Adventsonntage · 10:00-12:30",
+          "price": 29.5,
+          "verified": true
+        },
+        {
+          "name": "Sektfrühstück",
+          "desc": "Dienstag bis Samstag · 9:30-12:30 · Reservierung erforderlich",
+          "price": 22.5,
+          "verified": true
+        },
+        {
+          "name": "Martin-Gans-Essen",
+          "desc": "Gänsekeule, Rotkraut, Knödel, Dessert · Reservierung erforderlich",
+          "price": 34.5,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "Frühstück",
+      "source": "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/Speisekarte_2026.pdf",
+      "items": [
+        {
+          "name": "Frühstück 9:30-11:30 Uhr",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Frühstück à la carte",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "name": "Tageskarte",
+      "source": "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/Speisekarte_2026.pdf",
+      "items": [
+        {
+          "name": "Tagesgerichte 11:30-14:30 Uhr",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Saisonales Tagesmenü",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "name": "Kuchen & Torten",
+      "source": "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/Speisekarte_2026.pdf",
+      "items": [
+        {
+          "name": "Hausgebackene Dinkel-Kuchen",
+          "desc": "Klosterbäckerei, ausschließlich Dinkel",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Torte des Tages",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "name": "Brotzeit",
+      "source": "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/Speisekarte_2026.pdf",
+      "items": [
+        {
+          "name": "Herzhafte Brotzeit",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Dinkelbrötchen",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "name": "Kaffee & Kakao",
+      "source": "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/Speisekarte_2026.pdf",
+      "items": [
+        {
+          "name": "Kaffee",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Kakao",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Kaffee-Spezial",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "name": "Klosterweingut",
+      "source": "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/Speisekarte_2026.pdf",
+      "items": [
+        {
+          "name": "Secco",
+          "desc": "Klostereigenes Weingut",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Weißwein - Rheingauer Riesling",
+          "desc": "Klosteredition",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Rosé & Rot",
+          "desc": "Klostereigenes Weingut",
+          "price": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "name": "Getränke & Bier",
+      "source": "https://klostercafe.abtei-st-hildegard.de/wp-content/uploads/2026/08/Speisekarte_2026.pdf",
+      "items": [
+        {
+          "name": "Schorle",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Dinkelbier",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Bier",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Fritz-Limonade",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        },
+        {
+          "name": "Mineralwasser",
+          "desc": "Preise nur in der Speisekarte-PDF (nicht maschinenlesbar)",
+          "price": null,
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

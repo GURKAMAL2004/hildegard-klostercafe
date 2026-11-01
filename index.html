@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>Klostercafé St. Hildegard — Rüdesheim</title>
+<style>
+  :root { --warm:#e8d5a8; --stone:#9c6b4f; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:100%; height:100%; overflow:hidden; background:#0b0d10; }
+  body { font-family:'Segoe UI',system-ui,sans-serif; color:#f2e9d8; }
+  canvas { display:block; width:100%; height:100%; }
+  #hud { position:fixed; inset:0; pointer-events:none; z-index:10; }
+  #stats {
+    position:absolute; top:8px; left:8px; pointer-events:none;
+    background:rgba(10,12,16,.72); border:1px solid rgba(232,213,168,.22);
+    border-radius:6px; padding:7px 10px; font:12px/1.45 ui-monospace,Consolas,monospace;
+    white-space:pre; letter-spacing:.2px; min-width:188px;
+  }
+  #stats b { color:var(--warm); font-weight:600; }
+  #prompt {
+    position:absolute; left:50%; bottom:16%; transform:translateX(-50%);
+    background:rgba(10,12,16,.82); border:1px solid rgba(232,213,168,.35);
+    border-radius:8px; padding:11px 19px; font-size:15px; display:none;
+    box-shadow:0 6px 26px rgba(0,0,0,.5);
+  }
+  #prompt kbd {
+    background:var(--warm); color:#2a1d12; border-radius:4px;
+    padding:1px 7px; font-weight:700; font-family:inherit;
+  }
+  #boot {
+    position:fixed; inset:0; z-index:50; display:flex; flex-direction:column;
+    align-items:center; justify-content:center; gap:16px;
+    background:linear-gradient(170deg,#141820,#0b0d10);
+  }
+  #boot h1 { font-size:26px; font-weight:600; color:var(--warm); letter-spacing:.3px; }
+  #boot p { font-size:13px; opacity:.62; }
+  #bar { width:min(340px,62vw); height:4px; background:rgba(255,255,255,.1); border-radius:2px; overflow:hidden; }
+  #bar i { display:block; height:100%; width:0%; background:var(--warm); transition:width .25s ease; }
+  #boot.done { opacity:0; pointer-events:none; transition:opacity .6s ease; }
+  #crosshair {
+    position:absolute; left:50%; top:50%; width:4px; height:4px; margin:-2px 0 0 -2px;
+    background:rgba(242,233,216,.5); border-radius:50%; display:none;
+  }
+</style>
+</head>
+<body>
+  <div id="hud">
+    <div id="stats">booting…</div>
+    <div id="crosshair"></div>
+    <div id="prompt"></div>
+  </div>
+  <div id="boot">
+    <h1>Abtei St. Hildegard</h1>
+    <p id="boot-msg">Initialising…</p>
+    <div id="bar"><i></i></div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

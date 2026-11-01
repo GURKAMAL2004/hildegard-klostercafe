@@ -1,0 +1,25 @@
+{
+  "name": "hildegard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "fetch:commons": "node scripts/fetch-commons.mjs",
+    "fetch:menu": "node scripts/fetch-menu.mjs",
+    "fetch:textures": "node scripts/fetch-textures.mjs",
+    "assets": "npm run fetch:textures && npm run fetch:menu && npm run fetch:commons"
+  },
+  "dependencies": {
+    "three": "^0.170.0",
+    "@dimforge/rapier3d-compat": "^0.14.0",
+    "postprocessing": "^6.36.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7",
+    "typescript": "^5.7.2",
+    "@types/three": "^0.170.0"
+  }
+}
